@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+
+	<div id="container">
+		<div id="top-styling">
+			<div id="nav-bar">
+				<span class="linkLeft">
+					<button class="navButtons"><a href="" class="navLinks">Home</a></button>
+					<button class="navButtons"><a href="pages/resume.html" class="navLinks">Resume</a></button>
+					<button class="navButtons"><a href="pages/aboutMe.html" class="navLinks">About Me</a></button>
+					<div class="dropDown">
+						<button class="dropButton navButtons"><a href="" class="navLinks">Social Links</a></button>
+						<div class="dropContent">
+							<a href="https://codepen.io/">Codepen <img class="dropSocialIcons" src="imgs/codepen.png"></a>
+							<a href="https://www.linkedin.com/">Linkedin<img class="dropSocialIcons" src="imgs/linkedin.png"></a>
+							<a href="https://www.youtube.com/">Youtube<img class="dropSocialIcons" src="imgs/youtube.png"></a>
+							<a href="https://github.com/">Github<img class="dropSocialIcons" src="imgs/github.png"></a>
+						</div>
+					</div>
+				</span>
+				<span class="linkRight">	
+					<button class="navButtons"><a href="mailto:doug8u200@gmail.com" class="navLinks">doug8u200@gmail.com</a></button>
+				</span>				
+			</div>	
+			<div id="introduction">
+				<h1 class="myName">Douglas N Wyers</h1>
+				<h3 class="greeting">Welcome to my page</h3>
+			</div>
+		</div>
+		<div id="my-skills">
+			<h3 class="aboutMeHeading headingFontSize">About Me</h3>
+			<img src="imgs/selfPortrait.jpg" class="myPicture" alt="">
+			<div class="aboutMeContent">
+				<p class="myAboutMe paragraphStyling">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex minus doloribus, quasi architecto dolore qui molestias repudiandae, eius ipsum temporibus atque deserunt reprehenderit! Magni fugit placeat dicta, natus tenetur? In id voluptates harum eius consequatur praesentium, unde ex aperiam et, ea voluptas. Molestiae unde quae accusantium recusandae, vel itaque consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus necessitatibus corrupti, natus dolor numquam aut similique nostrum sed! Laborum reiciendis commodi dolore deserunt, hic ipsam.
+				</p>
+				<span class="aboutMeIcons">
+					<i class="devicon-html5-plain"></i>
+					<i class="devicon-css3-plain"></i>
+					<i class="devicon-javascript-plain"></i>
+				</span>
+			</div>		
+		</div>
+		<div id="my-goals">
+		<div class="myGoalsBackground"></div>
+			<h3 class="myGoalsHeading headingFontSize">Goals</h3>
+			<img src="imgs/computerIcon.png" class="goalsImage" alt="">
+			<p class="goalsParagraph paragraphStyling">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure libero laudantium minus vel, minima quia doloremque beatae soluta nemo commodi quis, odit enim tempora ducimus.
+			</p>
+		</div>
+		<div id="contact">
+			<h3 class="contactHeading headingFontSize">Contact Me</h3>
+			<p class="moreQuestions paragraphStyling">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam fuga iusto incidunt numquam doloremque, accusantium cum et eaque omnis, voluptates odio animi cupiditate in. Modi.
+			</p>
+			<form action="src/index.php" method="POST" class="contactForm">
+				<input id="form-name" class="placeholderStyle" type="text" name="yourName" placeholder="Name*" /> </br>
+				<input id="form-email" class="placeholderStyle" type="text" name="yourEmail" placeholder="Email*" /> </br>
+				<textarea id="text-area" class="placeholderStyle" name="yourMessage" placeholder="Your Message Here.."></textarea> </br>
+				<input type="submit" class="formSubmit"/>
+			</form>
+			<ul class="socialIcons">
+				<li><a href="https://codepen.io/"><img src="imgs/codepen.png"></a></li>
+				<li><a href="https://www.linkedin.com/"><img src="imgs/linkedin.png"></a></li>
+				<li><a href="https://www.youtube.com/"><img src="imgs/youtube.png"></a></li>
+				<li><a href="https://github.com/"><img src="imgs/github.png"></a></li>
+			</ul>
+		</div>
+
+		<footer><p class="footerCopyright">&copyDouglas N. Wyers</p></footer>
+	</div>
+	<script src="src/jquery.js"></script>
+	<script src="src/index.js"></script>
+</body>
+</html>

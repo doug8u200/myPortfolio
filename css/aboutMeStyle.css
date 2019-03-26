@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+#container{
+	line-height: 1.5em;
+	width: 100%;
+	min-height: 1000px;
+	margin:0 auto;
+	background: rgb(148,233,233);
+	background: linear-gradient(264deg, rgba(148,233,233,1) 0%, rgba(189,148,233,1) 8%, rgba(129,75,184,0.9) 30%, rgba(189,148,233,1) 50%, rgba(129,75,184,0.896796218487395) 70%, rgba(189,148,233,1) 92%, rgba(148,233,233,1) 100%);
+	background-size: 400% 400%;
+
+	-webkit-animation: AnimationName 25s ease infinite;
+	-moz-animation: AnimationName 25s ease infinite;
+	animation: AnimationName 25s ease infinite;
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 57%}
+    50%{background-position:100% 44%}
+    100%{background-position:0% 57%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 57%}
+    50%{background-position:100% 44%}
+    100%{background-position:0% 57%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 57%}
+    50%{background-position:100% 44%}
+    100%{background-position:0% 57%}
+}
+
+.headingAboutMe{
+	text-align: center;
+	font-size: 3.4em;
+	padding:0.8em 0 1.8em 0;
+	font-family: 'Quicksand', sans-serif;
+
+}
+.languageHeadings{
+	font-size: 2.6em;
+	padding: 0 0 1.4em 4.6em;
+	font-family: 'Quicksand', sans-serif;
+	
+	
+}
+
+.htmlBackground, .cssBackground,.javascriptBackground{
+	width: 360px;
+	height: 740px;
+	display: inline;
+	float: left;
+	padding: 1.2em;
+} 
+
+.languageInfo{
+	font-size: 1em;
+	font-family: 'Merriweather', serif;
+	height: 500px;
+	width: 285px;
+	margin-left: 6.2em;
+}
+
+.myIcons{
+	font-size: 6em;
+	margin-left: 1.8em;
+	color: #0A1552;
+	
+}
+
+.myBackground{
+	clear: both;
+	width: 1000px;
+	margin:0 auto;
+	text-align: center; 
+}
+
+.myBackgroundText{
+	font-size: 1.2em;
+	font-family: 'Merriweather', serif;
+}
+
+footer{
+	margin-top: 2em;
+	background-color: rgba(33, 33, 33, 0.4);
+
+}
